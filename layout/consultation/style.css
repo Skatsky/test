@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap");
+body {
+  margin: 0px;
+}
+
+.wrapper {
+  height: 100vh;
+  background: url(https://www.visibacare.com/wp-content/uploads/2020/05/tips-for-video-consultation.jpg) no-repeat center center;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.description {
+  font-weight: bold;
+  font-family: "Work Sans", sans-serif;
+  top: 50%;
+  text-align: right;
+  position: absolute;
+  right: 5%;
+}
+
+.container {
+  clip-path: polygon(86% 0, 138% 0, 100% 100%, 15% 100%);
+  background-color: lightgray;
+  height: 100vh;
+  position: relative;
+}
+
+.dot {
+  margin-right: 10px;
+  top: 60%;
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 300px) {
+  .description {
+    font-size: 30px;
+    top: 78%;
+  }
+
+  .container {
+    clip-path: polygon(100% 37%, 0% 100%, 100% 100%);
+  }
+}
+@media only screen and (min-width: 400px) {
+  .description {
+    font-size: 38px;
+    top: 75%;
+  }
+
+  .container {
+    clip-path: polygon(100% 37%, 0% 100%, 100% 100%);
+  }
+}
+@media only screen and (min-width: 600px) {
+  .description {
+    font-size: 56px;
+    top: 70%;
+  }
+
+  .container {
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 13% 100%);
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .description {
+    font-size: 80px;
+    top: 50%;
+  }
+
+  .container {
+    clip-path: polygon(83% 0, 100% 0, 100% 100%, 14% 100%);
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .description {
+    font-size: 90px;
+  }
+
+  .container {
+    clip-path: polygon(83% 0, 100% 0, 100% 100%, 14% 100%);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
